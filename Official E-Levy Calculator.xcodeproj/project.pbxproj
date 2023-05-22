@@ -17,6 +17,7 @@
 		AA1981252A1AB85B00319B29 /* Official_E_Levy_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1981242A1AB85B00319B29 /* Official_E_Levy_CalculatorUITests.swift */; };
 		AA1981272A1AB85B00319B29 /* Official_E_Levy_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1981262A1AB85B00319B29 /* Official_E_Levy_CalculatorUITestsLaunchTests.swift */; };
 		AA1981392A1AFC1D00319B29 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1981382A1AFC1D00319B29 /* NetworkManager.swift */; };
+		AA19813B2A1B81FC00319B29 /* ELevy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19813A2A1B81FC00319B29 /* ELevy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AA1981242A1AB85B00319B29 /* Official_E_Levy_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Official_E_Levy_CalculatorUITests.swift; sourceTree = "<group>"; };
 		AA1981262A1AB85B00319B29 /* Official_E_Levy_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Official_E_Levy_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA1981382A1AFC1D00319B29 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AA19813A2A1B81FC00319B29 /* ELevy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELevy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				AA1981382A1AFC1D00319B29 /* NetworkManager.swift */,
+				AA19813A2A1B81FC00319B29 /* ELevy.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				AA1981392A1AFC1D00319B29 /* NetworkManager.swift in Sources */,
 				AA1981082A1AB85900319B29 /* ViewController.swift in Sources */,
 				AA1981042A1AB85900319B29 /* AppDelegate.swift in Sources */,
+				AA19813B2A1B81FC00319B29 /* ELevy.swift in Sources */,
 				AA1981062A1AB85900319B29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

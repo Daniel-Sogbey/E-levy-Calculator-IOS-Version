@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var amountTextField: UITextField!
+    @IBOutlet weak var elevyLabelView: UILabel!
+    @IBOutlet weak var telcosLabelView: UILabel!
+    @IBOutlet weak var totalChargesView: UILabel!
     
+    
+    @IBOutlet weak var amountTextField: UITextField!
     @IBOutlet weak var networkPicker: UIPickerView!
     
     var networkManager : NetworkManager = NetworkManager()
-    var selectedNetwork : String = "";
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +24,17 @@ class ViewController: UIViewController {
         amountTextField.delegate = self
         networkPicker.delegate = self
         networkPicker.dataSource = self;
+        networkManager.delegate = self;
+        elevyLabelView.text = "E-Levy: \(networkManager.elevy)%";
+        telcosLabelView.text = "Telco: \(networkManager.telco)%";
+        totalChargesView.text = "Total: \(networkManager.total)%";
     }
     
 
-    @IBAction func calculatePressed(_ sender: Any) {
+    @IBAction func calculatePressed(_ sender: UIButton) {
+        if let amount = amountTextField.text {
+            networkManager.calculateElevyBasedOnNetwork(Double(amount) ?? 0.00, networkManager.selectedNetwork)
+        }
         print(amountTextField.text ?? "Empty")
         amountTextField.endEditing(true)
     }
@@ -32,7 +42,18 @@ class ViewController: UIViewController {
 }
 
 //MARK: - UITextFieldDelegate
-extension ViewController : UITextFieldDelegate {
+extension ViewController : UITextFieldDelegate,NetworkManagerDelegate {
+    func didUpdateElevyCharges(elevy: Elevy) {
+        print("Amount To Send \(elevy.amountSent)")
+        elevyLabelView.text = "E-Levy: \(elevy.elevy)%";
+        telcosLabelView.text = "Telco: \(elevy.telco)%";
+        totalChargesView.text = "Total: \(elevy.total)%";
+    }
+    
+    func didFailElevyCharges() {
+        print("Error")
+    }
+    
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         amountTextField.endEditing(true)
@@ -50,6 +71,9 @@ extension ViewController : UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
+        if let amount = amountTextField.text {
+            networkManager.calculateElevyBasedOnNetwork(Double(amount) ?? 0.00, networkManager.selectedNetwork)
+        }
         amountTextField.text = ""
     }
     
@@ -78,9 +102,6 @@ extension ViewController : UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let selectedRow = networkManager.networks[row]
-        
-        selectedNetwork = selectedRow;
-        print(selectedRow)
-        print(selectedNetwork)
+        networkManager.network = selectedRow;
     }
 }
