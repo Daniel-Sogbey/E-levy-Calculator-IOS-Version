@@ -78,7 +78,7 @@ struct NetworkManager {
             print("default")
         }
         
-        let elevy = Elevy(amount: self.amount, telcoCharges: self.telcoCharge, elevyCharges: self.elevyCharge, totalCharges: self.telcoCharge, amountSent: self.amountSent, telco:self.telco, elevy: self.elevy, total: self.total)
+        let elevy = Elevy(amount: self.amount, telcoCharges: self.telcoCharge, elevyCharges: self.elevyCharge, totalCharges: self.totalCharge, amountSent: self.amountSent, telco:self.telco, elevy: self.elevy, total: self.total)
         
         delegate?.didUpdateElevyCharges(elevy: elevy)
     }

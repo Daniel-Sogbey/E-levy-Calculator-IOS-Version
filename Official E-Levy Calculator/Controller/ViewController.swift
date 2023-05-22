@@ -12,6 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var telcosLabelView: UILabel!
     @IBOutlet weak var totalChargesView: UILabel!
     
+    @IBOutlet weak var elevyAmountLabelView: UILabel!
+    @IBOutlet weak var telcoAmountLabelView: UILabel!
+    @IBOutlet weak var totalAmountLabelView: UILabel!
+    @IBOutlet weak var amountSentLabelView: UILabel!
+    
     
     @IBOutlet weak var amountTextField: UITextField!
     @IBOutlet weak var networkPicker: UIPickerView!
@@ -28,6 +33,11 @@ class ViewController: UIViewController {
         elevyLabelView.text = "E-Levy: \(networkManager.elevy)%";
         telcosLabelView.text = "Telco: \(networkManager.telco)%";
         totalChargesView.text = "Total: \(networkManager.total)%";
+        
+        elevyAmountLabelView.text = "E-Levy: GHS \(networkManager.elevyCharge)"
+        telcoAmountLabelView.text = "Telco: GHS \(networkManager.telcoCharge)"
+        totalAmountLabelView.text = "Total: GHS \(networkManager.totalCharge)"
+        amountSentLabelView.text = "Amount to Send: GHS \(networkManager.amountSent)"
     }
     
 
@@ -45,9 +55,14 @@ class ViewController: UIViewController {
 extension ViewController : UITextFieldDelegate,NetworkManagerDelegate {
     func didUpdateElevyCharges(elevy: Elevy) {
         print("Amount To Send \(elevy.amountSent)")
-        elevyLabelView.text = "E-Levy: \(elevy.elevy)%";
-        telcosLabelView.text = "Telco: \(elevy.telco)%";
-        totalChargesView.text = "Total: \(elevy.total)%";
+        elevyLabelView.text = "E-Levy: \(String(format: "%.2f", elevy.elevy))%";
+        telcosLabelView.text = "Telco: \(String(format: "%.2f", elevy.telco))%";
+        totalChargesView.text = "Total: \(String(format: "%.2f", elevy.total))%";
+        
+        elevyAmountLabelView.text = "E-Levy: GHS \(String("5."))"
+        telcoAmountLabelView.text = "Telco: GHS \(elevy.telcoCharges)"
+        totalAmountLabelView.text = "Total: GHS \(elevy.totalCharges)"
+        amountSentLabelView.text = "Amount to Send: GHS \(elevy.amountSent)"
     }
     
     func didFailElevyCharges() {

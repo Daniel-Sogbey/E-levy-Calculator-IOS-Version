@@ -62,11 +62,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCc-tY-ST9">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nCc-tY-ST9">
                                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="60"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -81,11 +81,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgg-I5-CTW">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tgg-I5-CTW">
                                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="60"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -100,11 +100,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1e1-j5-wud">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1e1-j5-wud">
                                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="60"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -125,11 +125,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpR-tW-isc">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HpR-tW-isc">
                                                                 <rect key="frame" x="93.000000000000028" y="0.0" width="83.333333333333343" height="50"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -144,11 +144,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0d-9X-1rF">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H0d-9X-1rF">
                                                                 <rect key="frame" x="93.000000000000028" y="0.0" width="83.333333333333343" height="50"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -163,11 +163,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNg-xx-dcP">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cNg-xx-dcP">
                                                                 <rect key="frame" x="93.000000000000028" y="0.0" width="83.333333333333343" height="50"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -182,11 +182,11 @@
                                                                 <imageReference key="image" image="checkmark.seal" catalog="system" symbolScale="small" variableValue="0.0"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default" weight="light"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHf-YU-r7f">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nHf-YU-r7f">
                                                                 <rect key="frame" x="93.000000000000028" y="0.0" width="83.333333333333343" height="50"/>
                                                                 <color key="backgroundColor" red="0.14901961389999999" green="0.2588235438" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -250,10 +250,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="amountSentLabelView" destination="nHf-YU-r7f" id="IP6-hH-fq6"/>
                         <outlet property="amountTextField" destination="pPs-vl-0Dp" id="MwK-j0-I4I"/>
+                        <outlet property="elevyAmountLabelView" destination="HpR-tW-isc" id="mye-g1-8by"/>
                         <outlet property="elevyLabelView" destination="nCc-tY-ST9" id="3ql-5s-Cuc"/>
                         <outlet property="networkPicker" destination="mGQ-hz-kyh" id="LDm-ze-jjL"/>
+                        <outlet property="telcoAmountLabelView" destination="H0d-9X-1rF" id="fZM-w7-98I"/>
                         <outlet property="telcosLabelView" destination="Tgg-I5-CTW" id="dfZ-n3-BRf"/>
+                        <outlet property="totalAmountLabelView" destination="cNg-xx-dcP" id="gcz-F6-sok"/>
                         <outlet property="totalChargesView" destination="1e1-j5-wud" id="XUj-tK-N7K"/>
                     </connections>
                 </viewController>
